@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-09-16T21:35:19+03:00</updated><id>/</id><title type="html">ShopAli</title><subtitle>Обзоры таваров с AliExpress line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Название товара</title><link href="/jekyll/update/2017/09/12/demo-product.html" rel="alternate" type="text/html" title="Название товара" /><published>2017-09-12T00:00:00+03:00</published><updated>2017-09-12T00:00:00+03:00</updated><id>/jekyll/update/2017/09/12/demo-product</id><content type="html" xml:base="/jekyll/update/2017/09/12/demo-product.html">&lt;p&gt;&lt;strong&gt;Изображение товара&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/gallery00.jpg&quot; class=&quot;library item&quot;&gt;
+  &lt;img src=&quot;/assets/images/gallery00.jpg&quot; alt=&quot;gallery01&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Видео с кратким обзором товара&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;https://www.youtube.com/embed/Rk-CX-jAzNc?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Описание товара, либо транскрибация текста из видео&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Небольшая галлерея с изображениями товара&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;library&quot;&gt;
+	
+	&lt;a href=&quot;/assets/images/background514.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/background514.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+	&lt;a href=&quot;/assets/images/0212.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/0212.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+	&lt;a href=&quot;/assets/images/gallery05.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/gallery05.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+	&lt;a href=&quot;/assets/images/2.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/2.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+	&lt;a href=&quot;/assets/images/gallery01.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/gallery01.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+	&lt;a href=&quot;/assets/images/gallery00.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/gallery00.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+	&lt;a href=&quot;/assets/images/1.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/1.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+	&lt;a href=&quot;/assets/images/01.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/01.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+	&lt;a href=&quot;/assets/images/3.jpg&quot; class=&quot;item&quot;&gt;
+		&lt;img src=&quot;/assets/images/3.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	
+&lt;/div&gt;
+
+&lt;!--
+пример yaml вставки в начале страницы, либо поста
+
+images:
+- image_path: /img/1/6.png
+  title: Home 1
+- image_path: /img/1/8.png
+  title: Home 1
+- image_path: /img/1/9.png
+  title: Home 1
+- image_path: /img/1/5.png
+  title: Home 1
+- image_path: /img/1/13.png
+  title: Home 1
+
+
+  скрипты для футера 
+
+  &lt;script src=&quot;/assets/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/assets/jquery.magnific-popup.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/assets/common.js&quot;&gt;&lt;/script&gt;
+
+--&gt;</content><author><name></name></author><summary type="html">Изображение товара</summary></entry></feed>
