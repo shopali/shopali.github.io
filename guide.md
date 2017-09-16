@@ -26,13 +26,14 @@ images:
   alt: "Home 5"
 img: /assets/images/gallery00.jpg
 alt-img: gallery01
+video-src: https://www.youtube.com/embed/Rk-CX-jAzNc?rel=0
 ---
 
 
 
 {% include img.html %}
 
-<iframe width="100%" height="300" src="https://www.youtube.com/embed/Rk-CX-jAzNc?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include iframe.html %}
 
 
 On this page will be writen instructions and guides
