@@ -1,1 +1,0 @@
-# shopali.github.io
