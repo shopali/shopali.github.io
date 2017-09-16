@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Guide
+title: О сайте
 subtitle: Jekyll Mobirise theme
 description: Wonderfull
-permalink: /guide/
+permalink: /about/
 image_path: /assets/images/gallery00.jpg
 images:
 - image_path: /assets/images/background514.jpg

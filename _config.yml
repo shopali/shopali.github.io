@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ShopAli
-description: Тема для Jekyll созданная в визуальном конструкторе сайтов Mobirise. Адаптивный дизайн, удобное написание постов, приятный внешний вид и все преимущества статического сайта. 
+description: Обзоры таваров с AliExpress 
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,9 +27,9 @@ logo: /assets/images/logo2.png
 
 #HOME PAGE HERO-FORM
 hero-img: /assets/images/gallery06.jpg
-hero-intro: Mobirise тема для Jekyll
-hero-subtitle: Очередной шаблон для Jekyll, но с использованием нового инструмента
-hero-description: Тема для Jekyll созданная в визуальном конструкторе сайтов Mobirise. Адаптивный дизайн, удобное написание постов, приятный внешний вид и все преимущества статического сайта.
+hero-intro: ShopAli.
+hero-subtitle: Обзоры дешевых таваров с AliExpress.
+hero-description: Ну и конечно же реферальные ссылки на эти товары.
 
 
 #HOME PAGE SLIDER
@@ -98,22 +98,22 @@ images:
 
 
 #HOME PAGE FOOTER
-home-street: 147/4 Ленинский проспект
+home-street: 
 city: Санкт-Петербург
 
-email: trickster20092@gmail.com
-phone: +7-966-750-45-74
-fax: нет
+email: 
+phone: 
+fax: 
 
 link-name1: Имя ссылки 1
 link-name2: Имя ссылки 2
 link-name3: Имя ссылки 3
 
-link1: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
-link2: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
-link3: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
+link1: #
+link2: #
+link3: #
 
-copyright: 2017 jekyll and github + mobirise
+copyright: 2017 ShopAli
 
 
 
