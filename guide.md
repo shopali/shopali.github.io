@@ -32,6 +32,8 @@ alt-img: gallery01
 
 {% include img.html %}
 
+<iframe width="420" height="280" src="https://www.youtube.com/embed/Rk-CX-jAzNc?rel=0" frameborder="0" allowfullscreen></iframe>
+
 
 On this page will be writen instructions and guides
 
