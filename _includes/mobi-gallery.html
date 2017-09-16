@@ -1,0 +1,7 @@
+<div class="library container">
+  {% for image in site.images %}
+  <a href="{{ image.image_path }}" class="item">
+    <img src="{{ image.image_path }}" alt="{{ image.title }}">
+  </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,138 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: PureBlog
+description: Тема для Jekyll созданная в визуальном конструкторе сайтов Mobirise. Адаптивный дизайн, удобное написание постов, приятный внешний вид и все преимущества статического сайта. 
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+logo: /assets/images/logo2.png
+
+
+#HOME PAGE HERO-FORM
+hero-img: /assets/images/gallery06.jpg
+hero-intro: Mobirise тема для Jekyll
+hero-subtitle: Очередной шаблон для Jekyll, но с использованием нового инструмента
+hero-description: Тема для Jekyll созданная в визуальном конструкторе сайтов Mobirise. Адаптивный дизайн, удобное написание постов, приятный внешний вид и все преимущества статического сайта.
+
+
+#HOME PAGE SLIDER
+slide-img1: /assets/images/3.jpg
+slide-title1: Слайд 1
+slide-subtitle1: Описание к 1 слайду
+
+slide-img2: /assets/images/background514.jpg
+slide-title2: Слайд 2
+slide-subtitle2: Описание к 2 слайду
+
+slide-img3: /assets/images/gallery00.jpg
+slide-title3: Слайд 3
+slide-subtitle3: Описание к 3 слайду
+
+
+slide-button: Кнопка
+
+
+#HOME PAGE MEDIA-CONTENT
+madia-content-title: Counters and media
+madia-content-subtitle: Responsive block with counters and media.
+madia-content-img: /assets/images/gallery00.jpg
+
+madia-content-number1: 100
+madia-content-number-title1: Unlimited websites
+madia-content-number-subtitle1: Choose from the large selection of latest pre-made blocks.
+
+madia-content-number2: 200
+madia-content-number-title2: Unlimited websites
+madia-content-number-subtitle2: Choose from the large selection of latest pre-made blocks.
+
+madia-content-number3: 200
+madia-content-number-title3: Unlimited websites
+madia-content-number-subtitle3: Choose from the large selection of latest pre-made blocks.
+
+madia-content-number4: 200
+madia-content-number-title4: Unlimited websites
+madia-content-number-subtitle4: Choose from the large selection of latest pre-made blocks.
+
+
+
+#HOME PAGE GALLERY
+images:
+- image_path: /assets/images/background514.jpg
+  alt: "Home 2"
+- image_path: /assets/images/0212.jpg
+  alt: "Home 3"
+- image_path: /assets/images/gallery05.jpg
+  alt: "Home 4"
+- image_path: /assets/images/2.jpg
+  alt: "Home 5"
+- image_path: /assets/images/gallery01.jpg
+  alt: "Home 5"
+- image_path: /assets/images/gallery00.jpg
+  alt: "Home 5"
+- image_path: /assets/images/1.jpg
+  alt: "Home 5"
+- image_path: /assets/images/01.jpg
+  alt: "Home 5"
+- image_path: /assets/images/3.jpg
+  alt: "Home 5"
+
+
+
+
+
+#HOME PAGE FOOTER
+home-street: 147/4 Ленинский проспект
+city: Санкт-Петербург
+
+email: trickster20092@gmail.com
+phone: +7-966-750-45-74
+fax: нет
+
+link-name1: Имя ссылки 1
+link-name2: Имя ссылки 2
+link-name3: Имя ссылки 3
+
+link1: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
+link2: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
+link3: https://daniil-sokolov.github.io/jekyll-mobirise-tamplete/
+
+copyright: 2017 jekyll and github + mobirise
+
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+plugins: [jekyll-paginate]
+paginate: 6
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
