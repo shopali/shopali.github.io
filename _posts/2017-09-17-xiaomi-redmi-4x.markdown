@@ -3,8 +3,8 @@ layout: post
 title:  "Название товара"
 subtitle: "Цена товара"
 description: "Характеристики товара"
-epn-link: https://epn.bz/ru/cabinet/#/top/ali/buy
-date:   2017-09-12
+epn-link: http://ali.pub/1u7lwm
+date:   2017-09-17
 categories: jekyll update
 image_path: /assets/images/gallery00.jpg
 images:

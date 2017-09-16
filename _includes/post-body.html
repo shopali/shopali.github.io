@@ -7,6 +7,15 @@
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
                 {{ content }}
 
+
+                <div class="mbr-section-btn text-center">
+                        <a href="{{ page.epn-link }}" class="btn btn-primary display-4" target="_blank">
+                            Заказать
+                        </a>
+                    </div>
+
+
+
 		<p class="post-meta">
 		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
