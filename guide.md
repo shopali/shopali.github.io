@@ -4,7 +4,7 @@ title: О сайте
 subtitle: Сайт на котором представленны товары с одного из самых популярных интернет-магазинов мира AliExpress.
 description: Здесь находится подборка самых интересных вещей, которые можно найти на AliExpress. Мелкая и дешевая электроника, одежда, обувь, аксесуары, игрушки и разные прикольные вещички.
 permalink: /about/
-image_path: /assets/images/gallery00.jpg
+image_path: /assets/images/background514.jpg
 images:
 - image_path: /assets/images/background514.jpg
   alt: "Home 2"
