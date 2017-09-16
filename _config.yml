@@ -28,8 +28,8 @@ logo: /assets/images/logo2.png
 #HOME PAGE HERO-FORM
 hero-img: /assets/images/gallery06.jpg
 hero-intro: ShopAli.
-hero-subtitle: Обзоры дешевых таваров с AliExpress.
-hero-description: Ну и конечно же реферальные ссылки на эти товары.
+hero-subtitle: Обзоры интересных и дешевых таваров с AliExpress.
+hero-description: Подборка самых интересных вещей, которые можно найти на просторах этого огромного и удивительного интернет-магазина. Ну и конечно же реферальные ссылки на эти товары.
 
 
 #HOME PAGE SLIDER
@@ -122,6 +122,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 plugins: [jekyll-paginate]
 paginate: 6
 

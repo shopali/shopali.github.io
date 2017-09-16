@@ -1,8 +1,8 @@
 ---
 layout: page
 title: О сайте
-subtitle: Jekyll Mobirise theme
-description: Wonderfull
+subtitle: Сайт на котором представленны товары с одного из самых популярных интернет-магазинов мира AliExpress.
+description: Здесь находится подборка самых интересных вещей, которые можно найти на AliExpress. Мелкая и дешевая электроника, одежда, обувь, аксесуары, игрушки и разные прикольные вещички.
 permalink: /about/
 image_path: /assets/images/gallery00.jpg
 images:
@@ -30,13 +30,16 @@ video-src: https://www.youtube.com/embed/Rk-CX-jAzNc?rel=0
 ---
 
 
+**Изображение товара**
 
 {% include img.html %}
 
+**Видео с кратким обзором товара**
+
 {% include iframe.html %}
 
+**Описание товара, либо транскрибация текста из видео**
 
-On this page will be writen instructions and guides
-
+**Небольшая галлерея с изображениями товара**
 
 {% include gallery.html %}
