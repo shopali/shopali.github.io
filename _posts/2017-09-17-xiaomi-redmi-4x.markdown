@@ -37,7 +37,7 @@ video-src: https://www.youtube.com/embed/mPZ-SfH8u6c?ecver=2
 
 
 
-{% include iframe.html %}
+<!--{% include iframe.html %}-->
 
 Бренд:Xiaomi
 
