@@ -78,7 +78,10 @@ module.exports = function (grunt) {
 						'assets/slidervideo/script.js',
 						'assets/gallery/player.min.js',
 						'assets/gallery/script.js',
-						'assets/formoid/formoid.min.js'
+						'assets/formoid/formoid.min.js',
+						'assets/owl/owl.js',
+						'assets/lazyload.js',
+						'assets/mouse.js'
 
 	    			],  // какие файлы конкатенировать
 	    		dest: 'dest/build.js'  // куда класть файл, который получиться после процесса конкатенации 
@@ -117,7 +120,7 @@ module.exports = function (grunt) {
 												  
 												  'assets/theme/css/style.css',
 												  'assets/gallery/style.css',
-												  'assets/mobirise/css/mbr-additional.css'
+												  'assets/owl/owl.css'
 
 	    									]   // первая строка - output файл. массив из строк, какие файлы конкатенировать и минифицировать.
 	    		}
