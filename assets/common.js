@@ -42,6 +42,23 @@ $(function() {
 		fragment: "#pjax-container"
 	})
 });
+
+
+
+$(document).ready(function() {
+  $(".imem").magnificPopup({
+    type: "image",
+    gallery: {
+      enabled: !0
+    }
+  })
+});
+
+
+
+
+
+
 $(document).on("ready pjax:end", function(a) {
 	$(document).ready(function() {
 
@@ -85,7 +102,14 @@ $(document).on("ready pjax:end", function(a) {
 			});
 		});
 
-		$.getScript("/assets/gallery/script.js");
+		$(document).ready(function() {
+			  $(".imem").magnificPopup({
+			    type: "image",
+			    gallery: {
+			      enabled: !0
+			    }
+			  })
+			});
 
 	});
 });

@@ -81,7 +81,8 @@ module.exports = function (grunt) {
 						'assets/formoid/formoid.min.js',
 						'assets/owl/owl.js',
 						'assets/lazyload.js',
-						'assets/mouse.js'
+						'assets/mouse.js',
+						'assets/jquery.magnific-popup.min.js'
 
 	    			],  // какие файлы конкатенировать
 	    		dest: 'dest/build.js'  // куда класть файл, который получиться после процесса конкатенации 
@@ -120,6 +121,7 @@ module.exports = function (grunt) {
 												  
 												  'assets/theme/css/style.css',
 												  'assets/gallery/style.css',
+												  'assets/popup-gallery.css',
 												  'assets/owl/owl.css'
 
 	    									]   // первая строка - output файл. массив из строк, какие файлы конкатенировать и минифицировать.
