@@ -47,7 +47,7 @@ $(document).on("ready pjax:end", function(a) {
 
 		$.getScript("/assets/ytplayer/jquery.mb.ytplayer.min.js");
 		$.getScript("/assets/theme/js/script.js");
-		$.getScript("/assets/gallery/script.js");
+		
 		
 		var owl = $('.owl-carousel');
 		owl.owlCarousel({
@@ -85,7 +85,7 @@ $(document).on("ready pjax:end", function(a) {
 			});
 		});
 
-
+		$.getScript("/assets/gallery/script.js");
 
 	});
 });
