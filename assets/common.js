@@ -44,9 +44,7 @@ $(function() {
 });
 $(document).on("ready pjax:end", function(a) {
 	$(document).ready(function() {
-		$.getScript("/assets/ytplayer/jquery.mb.ytplayer.min.js");
-		$.getScript("/assets/theme/js/script.js");
-
+		
 		var owl = $('.owl-carousel');
 		owl.owlCarousel({
 		    items:1,
@@ -82,5 +80,10 @@ $(document).on("ready pjax:end", function(a) {
 			    effect : "fadeIn"
 			});
 		});
+
+		$.getScript("/assets/ytplayer/jquery.mb.ytplayer.min.js");
+		$.getScript("/assets/theme/js/script.js");
+
+
 	});
 });
