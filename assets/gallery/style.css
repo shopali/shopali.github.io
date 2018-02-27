@@ -14,7 +14,7 @@
     width: 50%; } }
 @media (max-width: 400px) {
   .mbr-gallery .mbr-gallery-item {
-    width: 100%; } }
+    width: 50%; } }
 .mbr-gallery .icon-focus,
 .mbr-gallery .icon-video {
   position: absolute;
