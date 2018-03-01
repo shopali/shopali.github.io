@@ -36,15 +36,6 @@ $(document).ready(function () {
 });
 
 
-
-$(function() {
-	$(document).pjax("a", "#pjax-container", {
-		fragment: "#pjax-container"
-	})
-});
-
-
-
 $(document).ready(function() {
   $(".imem").magnificPopup({
     type: "image",
@@ -55,7 +46,13 @@ $(document).ready(function() {
 });
 
 
+/* pjax */
 
+$(function() {
+	$(document).pjax("a", "#pjax-container", {
+		fragment: "#pjax-container"
+	})
+});
 
 
 
@@ -63,6 +60,7 @@ $(document).on("ready pjax:end", function(a) {
 	$(document).ready(function() {
 
 		$.getScript("/assets/ytplayer/jquery.mb.ytplayer.min.js");
+		$.getScript("/assets/sociallikes/social-likes.js");
 		$.getScript("/assets/theme/js/script.js");
 		
 		
@@ -113,3 +111,4 @@ $(document).on("ready pjax:end", function(a) {
 
 	});
 });
+
