@@ -1,0 +1,57 @@
+<section class="features18 popup-btn-cards cid-qGDwNzw1BC" id="features18-11">
+
+    
+
+    
+    <div class="container">
+        <div class="row pt-5 ">
+            
+
+           <div class=" owl-carousel owl-theme">
+           {% for post in site.posts %}
+            <div class="card p-3 col-12 col-md-12 col-lg-12">
+                <a href="{{ post.url | relative_url }}">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <div class="mbr-overlay"></div>
+                        <div class="mbr-section-btn text-center"></div>
+                        <img class="owl-lazy" data-src="{{ post.image_path }}" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7 mbr-white">
+                            {{ post.title | escape }}
+                        </h4>
+                        <p class="mbr-white mbr-fonts-style align-left display-7">
+                            {{ post.subtitle | escape }}
+                        </p>
+                        <p class="mbr-white mbr-fonts-style align-left display-7">
+                            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                            <p><span class="post-meta mbr-white">{{ post.date | date: date_format }}</span></p>
+                        </p>
+                    </div>
+                </div>
+            </a>
+            </div>
+            {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="mbr-section content8 cid-qGDxkeGgIi" id="content8-12">
+
+    
+
+    <div class="container">
+        <div class="media-container-row title">
+            <div class="col-12 col-md-8">
+                <div class="mbr-section-btn align-center">
+                	<a class="btn btn-primary display-4" data-toggle="{{ site.modal-toggle }}" href='#{{ site.modal-id }}'>Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

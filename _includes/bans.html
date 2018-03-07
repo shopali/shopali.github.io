@@ -1,0 +1,57 @@
+<section class="features18 popup-btn-cards cid-qGDwNzw1BC" id="features18-11">
+
+    
+
+    
+    <div class="container">
+        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">{{ page.text }}</h2>
+
+        <div class="row pt-5 ">
+            
+
+           <div class=" owl-carousel owl-theme">
+           {% for ban in site.bans %}
+            <div class="card p-3 col-12 col-md-12 col-lg-12">
+                <a href="{{ ban.url | relative_url }}">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <div class="mbr-overlay"></div>
+                        <div class="mbr-section-btn text-center"></div>
+                        <img class="owl-lazy" data-src="{{ ban.image_path }}" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-9 text-center mbr-bold mbr-white">
+                            {{ ban.title | escape }}
+                        </h4>
+                        <p class="mbr-fonts-style align-left display-5 text-center mbr-white">
+                            <strike>{{ ban.strike-price | escape }}</strike><br>
+                            {{ ban.price | escape }}
+                        </p>
+                        
+                    </div>
+                </div>
+            </a>
+            </div>
+            {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="mbr-section content8 cid-qGDxkeGgIi" id="content8-12">
+
+    
+
+    <div class="container">
+        <div class="media-container-row title">
+            <div class="col-12 col-md-8">
+                <div class="mbr-section-btn align-center">
+                	<a class="btn btn-primary display-4" data-toggle="{{ site.modal-toggle }}" href='#{{ site.modal-id }}'>Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,65 @@
+<section class="testimonials1 cid-qGGHRBqe0w" id="testimonials1-17">
+
+    
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 align-center">
+                <h2 class="pb-3 mbr-fonts-style display-2">
+                    {{ site.otziv-title }}</h2>
+                <h3 class="mbr-section-subtitle mbr-light pb-3 mbr-fonts-style display-5">{{ site.otziv-subtitle }}</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-3 mt-2">
+        <div class="row">
+
+
+
+
+            {% for otziv in site.otzivs %}
+            <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+                <div class="panel-item p-3">
+                    <div class="card-block">
+                        <div class="testimonial-photo align-center">
+                            <img class="lazy" data-original="{{ otziv.img }}">
+                        </div>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                           {{ otziv.testemonials }}
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">
+                             {{ otziv.name }}
+                        </div>
+                        <small class="mbr-author-desc mbr-italic mbr-light mbr-fonts-style display-7">
+                               {{ otziv.place }}
+                        </small>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            
+
+            
+
+            
+        </div>
+    </div>   
+</section>
+
+<section class="mbr-section content8 cid-qGDvu6YRFr" id="content8-10">
+
+    
+
+    <div class="container">
+        <div class="media-container-row title">
+            <div class="col-12 col-md-8">
+                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" data-toggle="{{ site.modal-toggle }}" href='#{{ site.modal-id }}'>Оставить заявку</a></div>
+            </div>
+        </div>
+    </div>
+</section>

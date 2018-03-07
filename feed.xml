@@ -1,44 +1,29 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     
-     <title>FastStroy53</title>
-     <link href="/atom.xml" rel="self"/>
-     <id></id>
-     <updated>2018-03-04T03:09:57+03:00</updated>
+     <title>{{ site.title }}</title>
+     <link href="{{ site.url }}/atom.xml" rel="self"/>
+     <id>{{ site.url }}</id>
+     <updated>{{ site.time | date_to_xmlschema }}</updated>
      
      <author>
-       <name></name>
-       <uri></uri>
-       <email></email>
+       <name>{{ site.author.name }}</name>
+       <uri>{{ site.author.url }}</uri>
+       <email>{{ site.author.email }}</email>
      </author>
 
- 
+ {% for post in site.posts limit: 10 %}
  <entry>
-   <title>Как я пришёл к Jekyll</title>
-   <link href="/2017/11/14/welcome-to-jekylw.html"/>
-   <id>/2017/11/14/welcome-to-jekylw</id>
-   <updated>2017-11-14T00:00:00+03:00</updated>
-   <content type="html">
-</content>
+   <title>{{ post.title }}</title>
+   <link href="{{ site.url }}{{ post.url }}"/>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
  </entry>
- 
- <entry>
-   <title>Как я пришёл к Jekyll</title>
-   <link href="/2017/11/14/welcome-to-jekylq.html"/>
-   <id>/2017/11/14/welcome-to-jekylq</id>
-   <updated>2017-11-14T00:00:00+03:00</updated>
-   <content type="html">
-</content>
- </entry>
- 
- <entry>
-   <title>Как я пришёл к Jekyll</title>
-   <link href="/2017/11/14/welcome-to-jekyll.html"/>
-   <id>/2017/11/14/welcome-to-jekyll</id>
-   <updated>2017-11-14T00:00:00+03:00</updated>
-   <content type="html">
-</content>
- </entry>
- 
+ {% endfor %}
 
 </feed>

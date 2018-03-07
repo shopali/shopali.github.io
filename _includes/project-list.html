@@ -1,0 +1,62 @@
+<section class="features18 popup-btn-cards cid-qGCNNVCmDC" id="features18-u">
+
+    
+
+    
+    <div class="container">
+        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
+            {{ site.project-title }}</h2>
+        <h3 class="mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light">
+            {{ site.project-subtitle }}</h3>
+
+
+
+        <div class="media-container-row pt-5 ">
+            
+            {% for project in site.projects %}
+            <div class="card p-3 col-12 col-md-6">
+                <a href="{{ project.link | relative_url }}">
+                <div class="card-wrapper ">
+                    <div class="card-img">
+                        <div class="mbr-overlay"></div>
+                        <div class="mbr-section-btn text-center"></div>
+                        <img class="lazy" data-original="{{ project.img }}" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-2 mbr-white text-center">{{ project.title }}</h4>
+                        <p class="mbr-white mbr-fonts-style align-left display-5 text-center">
+                            {{ project.text }}</p>
+                    </div>
+                </div>
+            </a>
+            </div>
+            {% endfor %}
+
+            
+
+            
+        </div>
+
+
+
+
+
+
+    </div>
+</section>
+
+
+
+
+<section class="mbr-section content8 cid-qGDuKzfLPM" id="content8-z">
+
+    
+
+    <div class="container">
+        <div class="media-container-row title">
+            <div class="col-12 col-md-8">
+                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" data-toggle="{{ site.modal-toggle }}" href='#{{ site.modal-id }}'>Заказать индивидуальный проект</a></div>
+            </div>
+        </div>
+    </div>
+</section>

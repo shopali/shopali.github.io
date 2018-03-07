@@ -1,0 +1,50 @@
+<div class="modal fade" id="modal-id">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Заявка</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+
+			<div class="modal-body">
+					<div class="form-container">
+				        <div class="media-container-column">
+				            <div data-form-alert="" hidden="" class="align-center">Спасибо за заявку!</div>
+				            <form class="mbr-form" action="https://docs.google.com/forms/d/e/1FAIpQLScQI5hRUh0AMEBN0I7uunTAuItiQzSHpg8Dho1GE5NVR1sKXA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+				                <div data-for="name">
+				                    <div class="form-group">
+				                        <input type="text" class="form-control px-3" name="entry.104971510" placeholder="Имя" required="" id="name-header15-1q">
+				                    </div>
+				                </div>
+				                
+				                <div data-for="phone">
+				                    <div class="form-group">
+				                        <input type="tel" class="form-control px-3" name="entry.801385409" placeholder="Телефон" id="phone-header15-1q" required="">
+				                    </div>
+				                </div>
+				                <div data-for="email">
+				                    <div class="form-group">
+				                        <input type="email" class="form-control px-3" name="entry.1305415932" placeholder="Email (необязательно)"  id="email-header15-1q">
+				                    </div>
+				                </div>
+				                <div class="form-group" data-for="message">
+				                    <textarea type="text" class="form-control px-3" name="entry.1240365429" rows="7" placeholder="Вопрос (необязательно)" id="message-header15-1q"></textarea>
+				                </div>
+
+
+
+				                <span class="input-group-btn"><button href="" type="submit" class="btn btn-form btn-primary display-4">Отправить</button></span>
+				            </form>
+				        </div>
+				    </div>				
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='{{ "/" | relative_url }}';}"></iframe>
