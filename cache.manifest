@@ -1,8 +1,5 @@
----
-layout: null
----
 CACHE MANIFEST
-# rev {{ site.time | date_to_xmlschema }}
+# rev 2018-03-12T22:02:20+03:00
 /index.html
 /assets/web/assets/mobirise-icons/mobirise-icons.css
 /assets/socicon/css/styles.css
@@ -13,9 +10,21 @@ CACHE MANIFEST
 /assets/common.js
 /assets/images/logo.svg
 /assets/images/plogo.png
-{% for post in site.posts %}{{ post.id }}/
-{% endfor %}
-{% for page in site.pages %}{{ page.id }}/
-{% endfor %}
+/2017/11/14/welcome-to-jekylw/
+/2017/11/14/welcome-to-jekylq/
+/2017/11/14/welcome-to-jekyll/
+
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+
 NETWORK:
 *
