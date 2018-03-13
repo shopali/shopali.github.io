@@ -62,7 +62,7 @@ $(function() {
 $(document).on("ready pjax:end", function(a) {
 	$(document).ready(function() {
 
-		$.getScript("/assets/ytplayer/jquery.mb.ytplayer.min.js");
+		/*  $.getScript("/assets/ytplayer/jquery.mb.ytplayer.min.js"); */
 		$.getScript("/assets/sociallikes/social-likes.js");
 		$.getScript("/assets/theme/js/script.js");
 		
