@@ -46,6 +46,9 @@ $(document).ready(function() {
 });
 
 
+
+
+
 /* pjax */
 
 $(function() {
@@ -109,6 +112,8 @@ $(document).on("ready pjax:end", function(a) {
 			  })
 			});
 
+
+/* pjax */
 	});
 });
 
